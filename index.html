@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+
+</head>
+<body>
+    
+
+    <script>
+        // function definaton to create a function
+
+        
+       function myFun(x,y){
+         return x+y;
+       }
+
+        let result = myFun(10,20);
+        console.log(result);
+
+        let result2 = myFun(10,myFun(10,20));
+        console.log(result2);
+
+
+        function a(){
+            return 10;
+        }
+
+        function b(){
+            return 20;
+
+        }
+
+        function c(x,y){
+            return x+y;
+
+        }
+
+        let z = c(a(),b());
+        console.log(z);
+
+    </script>
+</body>
+</html>
