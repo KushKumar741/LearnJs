@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <script>
+            var arr = ["mango, banna , apple"];
+            function arrFun(){
+                console.log(arr)
+            }
+
+           
+
+            var roll = [10,12,20,30];
+            function rollFun(){
+                console.log(roll)
+                arrFun()
+                typeof(roll)
+            }
+
+            rollFun();
+
+            function myFunctionA(x,y){ // X and Y are formal argument / parameter ...
+                return x+y;
+            }
+
+            let z= myFunctionA(10, myFunctionA(50,10)); // 10 and 30 is the actula argument/ parameter ...
+            alert("are you see this output ..?");
+            console.log(z);
+            
+            var student = ['Anil',"kush",'saurabh',"rohit","deelip"];
+            alert("Hello "+student[1]);
+
+           let student1 = ['Anil',"kush",'saurabh',"rohit"];
+            function greet(name){
+                console.log("hello "+name+" how are you..?");
+            }
+
+            for(var i=0;i<=3;i++){
+                greet(student1[i]); 
+            }
+
+            function greet2(s){
+                for(var i=0;i<=5;i++){
+                  console.log("2. hello " + s[i]+" how are you ? and what are you doing this ..?");
+                }   
+            }
+
+            greet2(student);
+            
+    </script>
+</body>
+</html>
